@@ -1,0 +1,80 @@
+body {
+  background-color: rgb(255, 248, 220);
+}
+.navbar-nav li {
+  padding-right: 50px;
+}
+.navbar-brand {
+  letter-spacing: 10px;
+}
+.logo {
+  margin-right: 20px;
+  height: 50px;
+  width: 50px;
+}
+.column {
+  float: left;
+  width: 330px;
+  padding: 5px;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.qcard {
+  margin-left: 110px;
+  background-color: transparent;
+  width: 250px;
+  height: 300px;
+  perspective: 1000px;
+}
+
+.qcard_back {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.7);
+}
+
+.qcard:hover .qcard_back {
+  transform: rotateY(180deg);
+}
+
+.qcard_front,
+.qcard_back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  backface-visibility: hidden;
+  border-radius: 10px;
+}
+.qcard_content {
+  height: 300px;
+  width: 250px;
+  font-size: 20px;
+  text-align: center;
+  padding: 15px;
+  background-color: #5a3825;
+  color: white;
+  transform: rotateY(180deg);
+  border-radius: 10px;
+}
+.image {
+  border-radius: 10px;
+}
+.container video {
+  width: 480px;
+  height: 280px;
+  margin-right: 50px;
+}
+.video-section {
+  width: 100%;
+  margin-left: 30px;
+}

@@ -1,0 +1,28 @@
+body {
+  background-color: rgb(255, 248, 220);
+}
+.navbar-nav li {
+  padding-right: 50px;
+}
+.navbar-brand {
+  letter-spacing: 10px;
+}
+.logo {
+  margin-right: 20px;
+  height: 50px;
+  width: 50px;
+}
+.merwin {
+  float: left;
+  margin-right: 30px;
+  height: 330px;
+  width: 250px;
+  border-radius: 10px;
+}
+
+.p1,
+.p2 {
+  text-indent: 50px;
+  text-align: justify;
+  font-size: 20px;
+}
