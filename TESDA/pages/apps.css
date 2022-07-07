@@ -63,6 +63,8 @@ body {
   background-color: #5a3825;
   color: white;
   transform: rotateY(180deg);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
   border-radius: 10px;
 }
 .image {
